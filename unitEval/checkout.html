@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="checkout.css">
+    <title>checkout</title>
+    <style>
+        body{
+    background-color: rgb(252, 198, 137);
+}
+#h3{
+    display: flex;
+    justify-content: space-around;
+}
+#tab form{
+    border: 1px solid lightgray;
+    width: 600px;
+   height: inherit;
+   margin-left: 380px;
+   margin-right: 30px;
+   background-color: white;
+}
+.name{
+    display: flex;
+    height: 30px;
+}
+#next{
+    text-decoration: none;
+    background-color: rgb(54, 54, 241);
+    color: white;
+    font-size: 20px;
+    </style>
+</head>
+<body>
+
+
+    <div id="h3">
+<h1>Checkout</h1>
+    </div>
+
+    <div id="tab">
+<form>
+    <div style="margin-left: 30px;">
+    <h2>Delivery Address</h2>
+    <div style="display: flex;font-weight: bold;"><p >First Name</p>
+    <p style="padding-left: 150px;">Last Name</p></div>
+    <div class="name">
+<input style="margin-right: 40px;height: 25px;width: 200px;" type="text">
+<input style="margin-right: 40px;height: 25px;width: 200px;" type="text">
+</div>
+<p style="font-weight: bold;">Full Name for Delivery Address</p>
+<input style=" height: 25px;width: 450px;" type="text">
+<p style="font-weight: bold;">Address Line 1</p>
+<input style=" height: 25px;width: 450px;" type="text">
+<p style="font-weight: bold;">Address Line 2 (optional)</p>
+<input style=" height: 25px;width: 450px;" type="text">
+<div style="display: flex;font-weight: bold;"><p >City</p>
+    <p style="padding-left: 150px;">State</p>
+<p style="padding-left: 150px;">Zip</p></div>
+<div class="name">
+    <input style="margin-right: 40px;height: 25px;width: 130px;" type="text">
+    <input style="margin-right: 40px;height: 25px;width: 120px;" type="text">
+    <input style="margin-right: 40px;height: 25px;width: 100px;" type="text">
+    </div>
+    <p style="font-weight: bold;">Phone</p>
+    <input style=" height: 25px;width: 450px;" type="number"><br>
+    <input type="checkbox" id="sms" name="sms" ><label for="sms">Receive SMS text message updates on my orders
+    </label>
+    <p style="font-weight: bold;">Email (We require your email to send you receipts and order updates)</p>
+    <input style=" height: 25px;width: 450px;" type="text">
+</form>
+<br>
+    <a id="next" href="payment.html" style="font-size: 45px;margin-left:150px;">NEXT</a>
+    <script>
+    </script>
+</body>
+</html>
